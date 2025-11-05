@@ -1,4 +1,4 @@
-@use '../utils' as frwd;
+@use '../utilities/index' as frwd;
 .badge {
     @include frwd.badge-base();
     // color: frwd.$badge-cl;
