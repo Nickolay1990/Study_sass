@@ -5,5 +5,7 @@
 // @use './--examples--/lesson_5/variables';
 // @use './--examples--/lesson_5/button'
 
-@use './--examples--/lesson_5/scope' /* == END == */;
-@use './--examples--/lesson_5/base';
+// @use './--examples--/lesson_5/scope' /* == END == */;
+// @use './--examples--/lesson_5/base';
+// @use './--examples--/lesson_6/nesting';
+@use './--examples--/lesson_6/combinators';

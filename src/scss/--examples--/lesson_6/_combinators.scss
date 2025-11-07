@@ -1,0 +1,35 @@
+// div p {
+//     color: black;
+// }
+
+// div > p {
+//     color: black;
+// }
+
+// h2 + p {
+//     color: black;
+// }
+
+// h2 ~ p {
+//     color: black;
+// }
+
+ul > {
+    li {
+        list-style: none;
+    }
+}
+
+h2 {
+    + p {
+        border-top: 1px solid gray;
+    }
+}
+
+p {
+    ~ {
+        span {
+            opacity: 0.8;
+        }
+    }
+}
