@@ -1,27 +1,25 @@
-.button {
-  background: teal;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.button:hover, .button:focus {
-  color: blue;
-}
-
-.button-icon {
-  width: 20px;
-  height: 20px;
-}
-.button-icon:hover {
-  width: 50px;
-  height: 50px;
-}
-.button:hover .button-icon {
-  font-size: 20px;
+.badge {
+  min-width: 96px;
+  padding: 4px 8px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.07px;
+  border-radius: 20px;
+  background-color: #92929d;
 }
 
-.button-label {
-  font-size: 16px;
+.badge-completed {
+  background-color: #a461d8;
 }
-.button:hover .button-label {
-  font-size: 20px;
+
+.badge-ended {
+  background-color: #fc5a5a;
+}
+
+.badge-active {
+  background-color: #82c43c;
 }
