@@ -1,0 +1,19 @@
+$value: 600px;
+$name: 'box';
+$margin: 100px;
+
+// .box {
+// width: 600px + 20px;
+// width: calc(600px - 50%);
+// width: 600px * 2;
+// width: 600px * 2 + 50px;
+// width: (600px + 50px) * 2;
+// width: $value / 5;
+// width: (600px / 5);
+// width: 600px / 5px + 10px;
+// margin: $margin * 2;
+// margin: calc(#{$margin} * 2%);
+// }
+// .#{$name} {
+//     margin: $margin;
+// }
