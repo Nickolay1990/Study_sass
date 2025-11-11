@@ -1,11 +1,33 @@
-@mixin badge-base() {
-    display: inline-block;
-    min-width: 96px;
-    padding: 4px 8px;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0.07px;
-    text-align: center;
+// @mixin badge-base() {
+//     display: inline-block;
+//     min-width: 96px;
+//     padding: 4px 8px;
+//     font-size: 14px;
+//     font-weight: 500;
+//     line-height: 20px;
+//     letter-spacing: 0.07px;
+//     text-align: center;
+//     border-radius: 20px;
+// }
+
+@mixin frame-size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+%size {
+    width: 200px;
+    height: 200px;
+}
+
+.avatar {
+    @include frame-size(150px);
+    @extend %size;
     border-radius: 20px;
+}
+
+.icon {
+    @include frame-size(50px);
+    @extend %size;
+    border: 1px solid red;
 }
